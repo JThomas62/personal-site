@@ -1,23 +1,21 @@
-This site is not fully finished yet
+# Portfolio Site
 
-I have to add projects and the contact
+This repository contains the code for my personal website, which is currently under development. It showcases the projects I've worked on.
 
-##Portfolio Site
-This repository hosts the code for my personal website, where I showcase the projects I've worked on.
+## Features
 
-##Features
+- Browse through the various projects I've completed.
+- Learn more about my background, skills, and interests in the About Me section.
+- Contact me through the provided information.
 
-Browse through the various projects I've completed.
-About Me: Learn more about my background, skills, and interests.
-Contact: Find out how to get in touch with me.
+## Technologies Used
 
-##Technologies Used
-HTML
-CSS
-JavaScript
+- HTML
+- CSS
+- JavaScript
 
-##Website Link
+## Website Link
 
-Working On Mobile Right Now Desktop Will Be Working Soon
+The site is currently optimized for mobile, with desktop compatibility coming soon.
 
-https://jacobthomas.netlify.app/
+[Visit the website here](https://jacobthomas.netlify.app/)
