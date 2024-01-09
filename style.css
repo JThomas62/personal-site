@@ -6,6 +6,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: black;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .brand-title {
@@ -67,21 +68,17 @@ body {
   outline: solid 0.2rem lime;
   border: solid 0.2rem black;
   margin: 1.5rem auto 0;
-  display: block;
 }
 
 .greetings {
   color: white;
   text-decoration: underline 2px lime;
-  text-align: center;
   font-size: 3rem;
   margin-bottom: 0;
 }
 
 .career-container {
   color: white;
-  margin: 0 auto;
-  text-align: center;
   width: 85%;
   line-height: 2rem;
   font-size: 1.5rem;
@@ -95,7 +92,6 @@ body {
 
 .logo-link {
   margin: .5rem auto 0;
-  text-align: center;
 }
 
 .logo-link img {
@@ -112,7 +108,6 @@ body {
 .skills-title {
   color: white;
   text-decoration: underline 2px lime;
-  text-align: center;
   font-size: 3rem;
   margin-bottom: .5rem;
   margin-top: .85rem;
@@ -135,7 +130,6 @@ body {
 .projects-title {
   color: white;
   text-decoration: underline 2px lime;
-  text-align: center;
   font-size: 3rem;
   margin-bottom: .5rem;
   margin-top: .5rem;
@@ -144,13 +138,113 @@ body {
 .contact-title {
   color: white;
   text-decoration: underline 2px lime;
-  text-align: center;
   font-size: 3rem;
   margin-bottom: .5rem;
   margin-top: .5rem;
 }
 
-@media (max-width: 599px) {  
+@media (min-width: 1200px) {
+  .navbar {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+  }
+
+  .brand-title {
+    font-size: 1.5rem;
+    margin-left: .5rem;
+  }
+
+  .greetings {
+    margin-top: 3rem;
+    margin-left: 10rem;
+    text-decoration: underline 5px lime;
+    font-size: 2.5rem;
+  }
+
+  .headshot-image img {
+    float: right;
+    clear: both;
+    margin-top: 6.5rem;
+    margin-right: 7rem;
+    width: 20%;
+  }
+
+  .career-container {
+    width: 55%;
+    overflow: auto;
+    display: block;
+    margin-top: 1rem;
+    margin-left: 10rem;
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+
+  .name {
+    color: lime;
+    text-transform: uppercase;
+  }
+    
+  .logo-link {
+    margin-left: 9rem;
+  }
+    
+    
+  .logo-link img {
+    max-width: 7%;
+    display: inline-block;
+  }
+    
+  .logo-link .linkedin-link .linkedin:hover,
+  .logo-link .github-link .github:hover {
+    opacity: 0.3;
+  }
+   
+  .skills-title {
+    color: white;
+    text-decoration: underline 5px lime;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+    margin-top: .85rem;
+  } 
+  
+  .skill-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    
+  .skill-logos img {
+    max-width: 8%;
+  }
+    
+  .react-img {
+    margin-left: .5rem;
+  }
+    
+  .projects-title {
+    text-decoration: underline 5px lime;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+  }
+     
+  .contact-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+    text-decoration: underline 5px lime;
+  } 
+
+}
+
+@media (max-width: 800px) {  
+  .brand-title {
+    font-size: 1.5rem;
+  }
+  
   .toggle-button {
     display: flex;
   }
@@ -165,7 +259,6 @@ body {
     align-items: flex-start;
     text-transform: uppercase;
     font-size: 1.1rem;
-    position: fixed;
     width: 100%;
     top: 0;
     left: 0;
@@ -198,30 +291,24 @@ body {
     border-radius: 25%;
     outline: solid 0.2rem lime;
     border: solid 0.2rem black;
-    margin: 1.5rem auto 0;
     display: block;
   }
   
   .greetings {
-    color: white;
-    text-decoration: underline 2px lime;
     text-align: center;
-    font-size: 2.3rem;
-    margin-bottom: 0;
+    font-size: 2rem;
   }
   
   .career-container {
-    color: white;
     margin: 0 auto;
     text-align: center;
     width: 70%;
-    line-height: 2rem;
+    line-height: 2.3rem;
     font-size: 1.3rem;
   }
     
   .name {
     color: lime;
-    font-size: 1.3rem;
     text-transform: uppercase;
   }
     
@@ -243,10 +330,8 @@ body {
   }
    
   .skills-title {
-    color: white;
-    text-decoration: underline 2px lime;
     text-align: center;
-    font-size: 2.3rem;
+    font-size: 2rem;
     margin-bottom: .5rem;
     margin-top: .85rem;
   } 
@@ -266,20 +351,16 @@ body {
   }
     
   .projects-title {
-    color: white;
-    text-decoration: underline 2px lime;
     text-align: center;
-    font-size: 2.3rem;
+    font-size: 2rem;
     margin-bottom: .5rem;
     margin-top: .5rem;
   }
     
     
   .contact-title {
-    color: white;
-    text-decoration: underline 2px lime;
     text-align: center;
-    font-size: 2.3rem;
+    font-size: 2rem;
     margin-bottom: .5rem;
     margin-top: .5rem;
   } 
