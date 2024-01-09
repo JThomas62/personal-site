@@ -135,15 +135,7 @@ body {
   margin-top: .5rem;
 }
 
-.contact-title {
-  color: white;
-  text-decoration: underline 2px lime;
-  font-size: 3rem;
-  margin-bottom: .5rem;
-  margin-top: .5rem;
-}
-
-@media (min-width: 1200px) {
+@media (min-width: 1100px) {
   .navbar {
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -164,8 +156,8 @@ body {
   .headshot-image img {
     float: right;
     clear: both;
-    margin-top: 6.5rem;
-    margin-right: 7rem;
+    margin-top: 8rem;
+    margin-right: 6rem;
     width: 20%;
   }
 
@@ -229,15 +221,6 @@ body {
     margin-bottom: .5rem;
     margin-top: .5rem;
   }
-     
-  .contact-title {
-    text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: .5rem;
-    margin-top: .5rem;
-    text-decoration: underline 5px lime;
-  } 
-
 }
 
 @media (max-width: 800px) {  
@@ -351,14 +334,6 @@ body {
   }
     
   .projects-title {
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: .5rem;
-    margin-top: .5rem;
-  }
-    
-    
-  .contact-title {
     text-align: center;
     font-size: 2rem;
     margin-bottom: .5rem;
